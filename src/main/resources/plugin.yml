@@ -1,0 +1,17 @@
+name: Ak
+version: '${project.version}'
+main: live.soupsy.ak.Ak
+api-version: 1.19
+authors: [ SoupsyLive ]
+description: add later
+website: soupsy.live
+commands:
+  list:
+    description: Adding/Removing players to a lot of lists
+    usage: /<command> (list type)
+  ak:
+    description: Subcommands
+    usage: /<command> (Multiple options)
+  akbility:
+    description: Subcommands
+    usage: /<command> (Many options)
